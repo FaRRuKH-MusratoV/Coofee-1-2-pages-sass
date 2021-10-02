@@ -1,0 +1,28 @@
+.header {
+    min-width: 1280px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 25px;
+    padding-top: 25px;
+    
+    &__list{
+        display: flex;
+        align-items: center;
+        list-style: none;
+        padding: 0;
+    }
+    &__link {
+        font-family: 'Barlow', sans-serif;
+        font-weight: 700;
+        text-decoration: none;
+        color: #83888f;
+        text-transform: uppercase;
+        margin-left: 33px;
+    }
+    &__link:hover {
+        color: #000000;
+        border-bottom: 1px solid #000000;
+        transition: 0.5s ease;
+    }
+}
